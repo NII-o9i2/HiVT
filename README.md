@@ -12,6 +12,14 @@ cd HiVT
 ```
 
 2\. Create a conda environment and install the dependencies:
+
+修正：
+```
+conda install pytorch pytorch-cuda=12.1 -c pytorch -c nvidia
+conda install pytorch-lightning -c conda-forge
+```
+
+
 ```
 conda create -n HiVT python=3.8
 conda activate HiVT
